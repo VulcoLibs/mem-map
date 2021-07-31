@@ -50,6 +50,10 @@ use private::*;
 use errors::*;
 use mem_map::*;
 pub use exports::*;
+pub use bindings::{
+    c_void,
+    size_t,
+};
 
 
 /// Registry path to the **MemMap** keys. <br>
